@@ -5,24 +5,22 @@
 
 /* defaults */
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 html, body {
-    width: justify;
-    height: justify;
+    width: 100%;
+    height: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     font-family: 'Lexend Deca', sans-serif;
     display: auto;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #111115;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 21);
     overflow-y: scroll;
     font-family: 'Lexend Deca', sans-serif;
     opacity: 1;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
 /* hyperlinks */
@@ -45,14 +43,14 @@ a:hover {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #151519;
+    background-color: rgb(21, 21, 25);
 }
   
 #navbar a {
     border-radius: 5px;
     float: left;
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,13 +59,13 @@ a:hover {
   
 
 #navbar a:hover {
-    background-color: #ffffff;
-    color: #151915;
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 25, 21);
     transition: 0.5s;
   }
   
 #navbar a.active {
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     transition: 0.5s;
   }
   
@@ -75,7 +73,7 @@ a:hover {
 
 #home {
     scroll-behavior: smooth;
-    background-color: #151519;
+    background-color: rgb(21, 21, 25);
     height: 50%;
     width: 100%;
     display: flex;
@@ -92,8 +90,8 @@ a:hover {
 #home h1 {
     text-align: center;
     font-size: 128pt;
-    color: #ffffff;
-    text-shadow: 2px 2px 16px #000000;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 16px rgb(0, 0, 0);
     transition: 0.5s;
   }
 
@@ -102,7 +100,7 @@ a:hover {
 
 #about {
     scroll-behavior: smooth;
-    background-color: #111115;
+    background-color: rgb(17, 17, 21);
     height: 50%;
     width: 100%;
     display: flex;
@@ -117,14 +115,14 @@ a:hover {
 #about h1 {
     text-align: center;
     font-size: 64pt;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
   }
 
 #about p {
     text-align: left;
     font-size: 24pt;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
     width: 60%;
   }
@@ -133,7 +131,7 @@ a:hover {
 
 #download {
     scroll-behavior: smooth;
-    background-color: #111115;
+    background-color: rgb(17, 17, 21);
     height: 50%;
     width: 100%;
     display: flex;
@@ -148,20 +146,20 @@ a:hover {
 #download h1 {
     text-align: center;
     font-size: 64pt;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
   }
 
 #download h2 {
     text-align: center;
     font-size: 28pt;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
   }
 
 #download button {
-    background-color: #151519;
-    color: #ffffff;
+    background-color: rgb(21, 21, 25);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     padding: 15px 32px;
@@ -172,8 +170,8 @@ a:hover {
   }
 
 #download button:hover {
-    background-color: #ffffff;
-    color: #151519;
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 21, 25);
     transition: 0.5s;
   }
 
@@ -186,21 +184,21 @@ a:hover {
 #tutorial h1 {
     text-align: center;
     font-size: 64pt;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
   }
 
 #tutorial p {
     text-align: left;
     font-size: 24pt;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
   }
 
 /* footer */
 
 #footer {
-    background-color: #111115;
+    background-color: rgb(17, 17, 21);
     height: 50px;
     width: 100%;
     display: flex;
@@ -213,3 +211,8 @@ a:hover {
     bottom: 0;
   }
 
+/* hide scrollbar */
+
+::-webkit-scrollbar {
+  display: none;
+}
