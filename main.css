@@ -5,9 +5,14 @@
 
 /* defaults */
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 html, body {
     width: justify;
     height: justify;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     font-family: 'Lexend Deca', sans-serif;
