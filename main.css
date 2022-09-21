@@ -1,0 +1,210 @@
+/* Language: css */
+/* Path: style.css */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600&display=swap');
+
+
+/* defaults */
+
+html, body {
+    width: justify;
+    height: justify;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    display: auto;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #111115;
+    overflow-y: scroll;
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 1;
+  }
+
+/* hyperlinks */
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 0.5s color;
+  }
+
+a:hover {
+    color: rgb(30, 255, 116);
+    text-decoration: underline;
+  }
+
+/* naviagtion bar */
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151519;
+}
+  
+#navbar a {
+    border-radius: 5px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+
+#navbar a:hover {
+    background-color: #ffffff;
+    color: #151915;
+    transition: 0.5s;
+  }
+  
+#navbar a.active {
+    background-color: #ffffff;
+    transition: 0.5s;
+  }
+  
+/* top banner */
+
+#home {
+    scroll-behavior: smooth;
+    background-color: #151519;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+
+#home h1 {
+    text-align: center;
+    font-size: 128pt;
+    color: #ffffff;
+    text-shadow: 2px 2px 16px #000000;
+    transition: 0.5s;
+  }
+
+
+/* about section */
+
+#about {
+    scroll-behavior: smooth;
+    background-color: #111115;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+#about h1 {
+    text-align: center;
+    font-size: 64pt;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+
+#about p {
+    text-align: left;
+    font-size: 24pt;
+    color: #ffffff;
+    transition: 0.5s;
+    width: 60%;
+  }
+
+/* download section */
+
+#download {
+    scroll-behavior: smooth;
+    background-color: #111115;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+#download h1 {
+    text-align: center;
+    font-size: 64pt;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+
+#download h2 {
+    text-align: center;
+    font-size: 28pt;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+
+#download button {
+    background-color: #151519;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+
+#download button:hover {
+    background-color: #ffffff;
+    color: #151519;
+    transition: 0.5s;
+  }
+
+/* tutorial section */
+
+#tutorial{
+  scroll-behavior: smooth;
+}
+
+#tutorial h1 {
+    text-align: center;
+    font-size: 64pt;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+
+#tutorial p {
+    text-align: left;
+    font-size: 24pt;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+
+/* footer */
+
+#footer {
+    background-color: #111115;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.5s;
+    bottom: 0;
+  }
+
