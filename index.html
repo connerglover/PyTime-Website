@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- navigation bar -->
-    <div class="navbar" section="#home">
+    <nav class="navbar" section="#home">
       <ul>
         <li>
           <a href="">PyTime</a>
@@ -34,20 +34,20 @@
           <a href="#tutorial">Tutorial</a>
         </li>
       </ul>
-    </div>
+    </nav>
     <!-- home -->
     <div class="home">
       <h1>PyTime</h1>
     </div>
     <!-- ko-fi button -->
     <div class="kofi">
-      <script src="https://storage.ko-fi.com/cdn/scripts/overlay-wclassget.js"></script>
+      <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
       <script>
-        kofiWclassgetOverlay.draw("connerlmao", {
-          type: "floating-chat",
-          "floating-chat.donateButton.text": "Support me",
-          "floating-chat.donateButton.background-color": "#323842",
-          "floating-chat.donateButton.text-color": "#fff",
+        kofiWidgetOverlay.draw('connerlmao', {
+          'type': 'floating-chat',
+          'floating-chat.donateButton.text': 'Support Me',
+          'floating-chat.donateButton.background-color': '#151519',
+          'floating-chat.donateButton.text-color': '#fff'
         });
       </script>
     </div>
@@ -64,7 +64,7 @@
       </center>
     </div>
     <!-- download -->
-    <div section="#download" class="download">
+    <div class="download">
       <h1>Download</h1>
       <h2>Download PyTime from the link below!</h2>
       <a href="/releases/PyTime-v1-0-2.zip" target="_blank">

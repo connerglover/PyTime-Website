@@ -12,6 +12,10 @@ body {
   background-color: rgb(17, 17, 21);
 }
 
+nav {
+  padding-bottom: 8px;
+}
+
 div {
   padding-top: 8px;
   padding-bottom: 8px;
