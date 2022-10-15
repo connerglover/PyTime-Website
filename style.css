@@ -4,22 +4,30 @@
 
 /* defaults */
 
-html,
-body {
+html, body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 16px;
   color: rgb(255, 255, 255);
   background-color: rgb(17, 17, 21);
-}
-
-nav {
-  padding-bottom: 8px;
+  margin: 0;
 }
 
 div {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+/* input boxes */
+input {
+  background-color: rgb(21, 21, 25);
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 8px;
+  margin: 8px;
+}
+
 
 /* hyperlinks */
 
@@ -35,6 +43,12 @@ a:hover {
 }
 
 /* naviagtion bar */
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
 .navbar ul {
   list-style-type: none;
