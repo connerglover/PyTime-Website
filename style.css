@@ -192,6 +192,27 @@ a:hover {
   transition: 0.5s;
 }
 
+/* 404 */
+
+.error {
+  background-color: rgb(21, 21, 25);
+  border-radius: 5px;
+}
+
+.error h1 {
+  font-size: 100pt;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.error {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 20px;
