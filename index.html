@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="wclassth=device-wclassth" />
+    <title>Hello, world!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta property="og:title" content="PyTime" />
     <meta
       property="og:description"
@@ -15,106 +16,140 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
+    <div id="fadein"></div>
+    <div id="loader-wrapper">
+      <div class="loader"></div>
+    </div>
     <!-- navigation bar -->
     <nav class="navbar">
-      <ul>
-        <li>
-          <a href="">PyTime</a>
-        </li>
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#download">Download</a>
-        </li>
-        <li>
-          <a href="#tutorial">Tutorial</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- home -->
-    <section id='home'>
-      <div class="home">
-        <h1>PyTime</h1>
-      </div>
-    </section>
-    <!-- ko-fi button -->
-    <div class="kofi">
-      <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-      <script>
-        kofiWidgetOverlay.draw('connerlmao', {
-          'type': 'floating-chat',
-          'floating-chat.donateButton.text': 'Support Me',
-          'floating-chat.donateButton.background-color': '#151519',
-          'floating-chat.donateButton.text-color': '#fff'
-        });
-      </script>
-    </div>
-    <!-- about -->
-    <section id=about>
-      <div class="about">
-        <h1>About</h1>
-        <center>
-          <p>
-            PyTime is a simple retime tool created in Python to replace current
-            outdated options like SPRT while including New Features like Load
-            Remover, a Modern UI, and More! This tool will make retiming runs
-            easier than ever before for new and old Runners!
-          </p>
-        </center>
-      </div>
-    </section>
-    <!-- download -->
-    <section id='download'>
-      <div class="download">
-        <h1>Download</h1>
-        <h2>Download PyTime from the link below!</h2>
-        <a href="https://github.com/ConnerConnerConner/PyTime/releases/latest/download/PyTime.zip" target="_blank">
-          <button>Download</button>
-        </a>
-        <br />
-        <a href="https://github.com/ConnerConnerConner/PyTime" target="_blank">
-          <button>Source Code</button>
-        </a>
-        <div class="tutorial">
-          <h1>Not on Windows?</h1>
-            <p>
-              If you're not on Windows or not able to use PyTime you can use a retime tool created by my friend, <a href="https://www.youtube.com/@AmazinCris">AmazinCris</a>.<br />
-              Here's a link to it: <a href="https://www.desmos.com/calculator/k8ibeeliol">Frame Count Retime Tool</a>.
-            </p>
-        </div>
-        <!-- <br />
-        <a href="/old-versions/">
-          <button>Old Versions</button>
-        </a>
-      </div> -->
-    </section>  
-    <!-- tutorial -->
-    <section id=tutorial>
-      <div class="tutorial">
-        <h1>Tutorial</h1>
-        <ol>
+        <ul>
           <li>
-            Find and input the framerate<br />
-          Right click the YouTube video player and click "Stats for nerd" at "Current / Optimal Res" where a resolution is visible, the resolution will be followed by @XX, the XX is the video's framerate, input that into the input box called "FPS."
+            <a href="">PyTime</a>
           </li>
-          <li>Input the Start and the End<br />
-            First, you need to find the first frame of the run. You can do this by using the , and . key, this allows you to advance 1 frame. Once you've located the first frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info Start." Then, you need to find the last frame of the run. Once you've located the last frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info End."</li>
-          <li>Inputing the loads<br />
-          First, you need to find the first frame of the load. Once you've located the first frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info Start (Loads)". Then, you need to find the last frame of the load. Once you've located the last frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info End (Loads)". If you mess up the loads you can view loads and delete the bad load by clicking "View Loads" then finding the load and pressing delete load and confirming.</li>
-          <li>Calculating the Final Time<br />
-          Click Calculate, it will calculate the time with and without loads. Make sure to confirm wether or not you would like to Copy the Mod Message. If you copy the mod message you can paste it into speedrun.com Mod Message portion.</li>
-        </ol>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#download">Download</a>
+          </li>
+          <li>
+            <a href="#tutorial">Tutorial</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- home -->
+      <section id='home'>
+        <div class="home">
+          <h1>PyTime</h1>
+        </div>
+      </section>
+      <!-- ko-fi button -->
+      <div class="kofi">
+        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script>
+          kofiWidgetOverlay.draw('connerlmao', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support Me',
+            'floating-chat.donateButton.background-color': '#151519',
+            'floating-chat.donateButton.text-color': '#fff'
+          });
+        </script>
       </div>
-    </section>
-    <!-- footer -->
-    <section>
-      <div class="footer">
-          <p>Website Made by ConnerLmao</p>
-      </div>
-    </section>
+      <!-- about -->
+      <section id=about>
+        <div class="about">
+          <h1>About</h1>
+          <center>
+            <p>
+              PyTime is a simple retime tool created in Python to replace current
+              outdated options like SPRT while including New Features like Load
+              Remover, a Modern UI, and More! This tool will make retiming runs
+              easier than ever before for new and old Runners!
+            </p>
+          </center>
+        </div>
+      </section>
+      <!-- download -->
+      <section id='download'>
+        <div class="download">
+          <h1>Download</h1>
+          <h2>Download PyTime from the link below!</h2>
+          <a href="https://github.com/ConnerConnerConner/PyTime/releases/latest/download/PyTime.zip" target="_blank">
+            <button>Download</button>
+          </a>
+          <br />
+          <a href="https://github.com/ConnerConnerConner/PyTime" target="_blank">
+            <button>Source Code</button>
+          </a>
+          <div class="tutorial">
+            <h1>Not on Windows?</h1>
+              <p>
+                If you're not on Windows or not able to use PyTime you can use a retime tool created by my friend, <a href="https://www.youtube.com/@AmazinCris">AmazinCris</a>.<br />
+                Here's a link to it: <a href="https://www.desmos.com/calculator/k8ibeeliol">Frame Count Retime Tool</a>.
+              </p>
+          </div>
+          <!-- <br />
+          <a href="/old-versions/">
+            <button>Old Versions</button>
+          </a>
+        </div> -->
+      </section>  
+      <!-- tutorial -->
+      <section id=tutorial>
+        <div class="tutorial">
+          <h1>Tutorial</h1>
+          <ol>
+            <li>
+              Find and input the framerate<br />
+            Right click the YouTube video player and click "Stats for nerd" at "Current / Optimal Res" where a resolution is visible, the resolution will be followed by @XX, the XX is the video's framerate, input that into the input box called "FPS."
+            </li>
+            <li>Input the Start and the End<br />
+              First, you need to find the first frame of the run. You can do this by using the , and . key, this allows you to advance 1 frame. Once you've located the first frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info Start." Then, you need to find the last frame of the run. Once you've located the last frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info End."</li>
+            <li>Inputing the loads<br />
+            First, you need to find the first frame of the load. Once you've located the first frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info Start (Loads)". Then, you need to find the last frame of the load. Once you've located the last frame right click and press Copy debug info, then click the "Paste" button next to the "Debug info End (Loads)". If you mess up the loads you can view loads and delete the bad load by clicking "View Loads" then finding the load and pressing delete load and confirming.</li>
+            <li>Calculating the Final Time<br />
+            Click Calculate, it will calculate the time with and without loads. Make sure to confirm wether or not you would like to Copy the Mod Message. If you copy the mod message you can paste it into speedrun.com Mod Message portion.</li>
+          </ol>
+        </div>
+      </section>
+      <!-- footer -->
+      <section>
+        <div class="footer">
+            <p>Website Made by ConnerLmao</p>
+        </div>
+      </section>
+    <!--[if IE
+      ]><div
+        style="
+          width: 100%;
+          position: fixed;
+          z-index: 1000;
+          bottom: 0;
+          left: 0;
+          background: lightgray;
+        "
+      >
+        <p>
+          Outdated browser dectected. Please use a modern browser for a better
+          browsing experience.
+        </p>
+        <div onClick="parentNode.remove()">Close [X]</div>
+      </div><!
+    [endif]-->
+    <script type="text/javascript">
+      window.onload = function () {
+        setTimeout(function () {
+          document.getElementById("fadein").remove();
+        }, 1000);
+      };
+    </script>
+    <script type="text/javascript">
+      $(window).on("load", function () {
+        $("#loader-wrapper").fadeOut(700);
+      });
+    </script>
   </body>
 </html>
